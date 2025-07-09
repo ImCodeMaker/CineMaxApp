@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-white`}>
-        <nav className="bg-black w-full h-14 px-6 flex items-center justify-between">
+        <nav className="bg-black w-full h-14 px-6 relative flex items-center justify-between drop-shadow-2xl">
           <h1 className="text-white text-2xl font-bold">
             <Link href={"/"}>CineMax</Link>
           </h1>
