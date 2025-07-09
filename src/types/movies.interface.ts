@@ -7,4 +7,5 @@ export default interface Movies{
     poster_path: string
     original_title: string
     release_date: string
+    movieLink: ``
 }
